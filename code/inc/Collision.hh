@@ -6,10 +6,10 @@
 
 class Collision{
 
-  sf::Sprite& sprite;
+    sf::Sprite& sprite;
 
 public:
-
+    Collision(sf::Sprite& sprite);
 };
 
 #endif
